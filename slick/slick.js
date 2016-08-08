@@ -1505,7 +1505,7 @@
             } else {
                 rangeStart = _.currentSlide - Math.max(0, _.currentSlide + _.options.slidesToShow - _.slideCount);
             }
-            rangeEnd = Math.ceil(rangeStart + _.options.slidesToShow);
+            rangeEnd = Math.ceil(rangeStart + 2 * _.options.slidesToShow);
             
             if (_.options.fade === true) {
                 if (rangeStart > 0) rangeStart--;
